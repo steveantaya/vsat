@@ -1,0 +1,477 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 /*\
+Static file for Theme changes\
+Theme name: ViaSat\
+Version: 1.0\
+Template: \
+Created: 1/28/15\
+Last Updated: 4/24/15\
+Author: Jen Rasmussen, Four51\
+*/\
+\
+/*login*/\
+/*.login-splash, .login-splash .wrapper \{\
+    background-color:#d64a29;\
+\}*/\
+\
+.order-cloud-image \{\
+background:url("//www.four51.com/Themes/Custom/a127ce85-d2a4-4d9e-942f-5bdb0342003b/ViaSat/images/custom/stars.jpg");\
+\}\
+\
+.order-cloud img \{\
+    margin: 0 auto;\
+    padding: 30px 0;\
+    width: 60%;\
+\}\
+\
+.order-cloud .form-signin \{\
+    background:#d64a29;\
+    /*border:2px solid #535353;*/\
+\}\
+\
+.login, .login h3, .login a  \{\
+   color:#fff;\
+\}\
+\
+.login .alert-info \{\
+    background-color:#d64a29;\
+    color:#fff;\
+\}\
+\
+.login .btn-info \{\
+    background-color:rgba(255,255,255,0.8);\
+    color:#d64a29;\
+    border-color:#fff;\
+\}\
+\
+.login .btn-info:disabled \{\
+    background-color:rgba(255,255,255,0.6);\
+\}\
+\
+.login .btn-info:hover \{\
+    background-color:rgba(255,255,255,1.0);\
+    border-color:#fff;\
+\}\
+\
+/*container*/\
+html,body \{\
+    height:100%; /*needed for container min-height */\
+\}\
+\
+section \{\
+    min-height:100%;\
+\}\
+\
+body \{\
+    margin-bottom:0;\
+    background-color:#fff;\
+\}\
+\
+.wrapper, .container, .container-view, .container .navbar-nav  \{\
+    /*max-width: 1600px;*/\
+    max-width:1280px;\
+    margin:0 auto;\
+\}\
+\
+.wrapper \{\
+    background:#FFF;\
+\}\
+\
+#content .container-view \{\
+    max-width:100%;\
+    padding:15px;\
+    margin-top:45px;\
+\}\
+\
+a.back-to-top \{\
+    bottom: 2em;\
+    right: 0px;\
+    background-color: #FFF;\
+    color: #DD5900;\
+    font-size: 30px;\
+    padding: 0.5em;\
+    cursor: pointer;\
+    -moz-transition: all 200ms ease-in-out;\
+    -o-transition: all 200ms ease-in-out;\
+    -webkit-transition: all 200ms ease-in-out;\
+    transition: all 200ms ease-in-out;\
+\}\
+a.back-to-top:hover \{\
+    background-color: #DD5900;\
+    color: #FFF;\
+\}\
+\
+/*nav*/\
+@media (max-width: 768px) \{\
+    .navbar .container .navbar-nav.pull-left li a, .navbar .container-view .navbar-nav.pull-left li a \{\
+        padding: 20px 10px;\
+    \}\
+\}\
+\
+/*correct word spacing in nav*/\
+.navbar .container .navbar-nav.pull-left li a span, .navbar .container-view .navbar-nav.pull-left li a span \{\
+    margin-left:0;\
+\}\
+\
+\
+.container .navbar-nav li a:hover  \{background-color: #ce5719;\}\
+.container .navbar-nav li.active a:hover  \{background-color: #c94500;\}\
+.container .navbar-nav li.active a:focus  \{background-color: #c94500;\}\
+.navbar-default .navbar-nav .open > a  \{background-color: #c94500;\}\
+.navbar-default .navbar-nav .open > a:hover  \{background-color: #c94500;\}\
+.navbar-default .navbar-nav .open > a:focus  \{background-color: #c94500;\}\
+.navbar-nav li.dropdown li > a:hover  \{background-color: #ce5719; \}\
+.navbar-nav li.dropdown li > a:focus  \{background-color: #ce5719; \}\
+.navbar .container .navbar-nav li.active .fa-caret-down  \{color: #c94500;\}\
+.navbar-nav li.dropdown li > a  \{color: #333333;\}\
+.badge  \{background-color: #FFFFFF; color: #DD5900;\}\
+.navbar-default  \{background-color: #DD5900; border-bottom:1px solid #FFF;\}\
+\
+\
+.navbar-default .navbar-nav > .active > a \{\
+    background-color: #DD5900;\
+\}\
+\
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus \{\
+    background-color: #c94500;\
+\}\
+\
+.navbar .container .navbar-nav.pull-left li.fadeInLeft a i, .navbar .container-view .navbar-nav.pull-left li.fadeInLeft a i \{\
+    background-color: #DD5900;\
+    color: #FFFFFF;\
+\}\
+\
+.navbar .container .navbar-nav.pull-right li.logout a i:first-of-type, .navbar .container-view .navbar-nav.pull-right li.logout a i:first-of-type \{\
+    border:0 none;\
+    border-radius: 0;\
+\}\
+\
+.aboutLinks \{\
+    text-align:center;\
+\}\
+\
+@media (max-width: 998px) \{\
+    .aboutLinks \{\
+        text-align:left;\
+    \}\
+\
+    .aboutLinks a \{\
+        clear:both;\
+        float:left;\
+    \}\
+\
+    .clear \{\
+        clear:both;\
+    \}\
+\}\
+\
+/*branding*/\
+.jumbotron, .category-message \{\
+    padding:0 10px 40px 10px;\
+\}\
+\
+.jumbotron p \{\
+    font-size: inherit;\
+\}\
+\
+.jumbotron p.lead \{\
+    color:#DD5900;\
+    text-align:left;\
+    font-weight:bold;\
+\}\
+\
+.jumbotron ul, .category-message ul \{\
+    list-style-type:disc;\
+\}\
+\
+.jumbotron ul li, .category-message li \{\
+    margin-left:15px;\
+\}\
+\
+@media (max-width: 1280px) \{\
+    .jumbotron img:not(.armstrong) \{\
+        width:100%;\
+        height:auto;\
+        padding:10px 0;\
+    \}\
+\
+    .jumbotron img.armstrong \{\
+        margin-left:auto;\
+        margin-right:auto;\
+    \}\
+\}\
+\
+.home-notice \{\
+    background-color:#DD5900;\
+    color:#fff;\
+    border-radius:10px;\
+    margin-top:15%;\
+    font-weight:bold;\
+    text-transform:uppercase;\
+\}\
+\
+@media (max-width: 998px) \{\
+    .home-notice \{\
+        margin-top:auto;\
+        margin-right:auto;\
+    \}\
+\}\
+\
+/*categories*/\
+.category-message .well \{\
+    border:1px solid #ccc;\
+\}\
+\
+.category-message h3 a \{\
+    text-decoration:none;\
+\}\
+\
+.category-message  a \{\
+    color:#DD5900;\
+\}\
+\
+.category-message .mobile \{\
+    position:relative;\
+    left:20px;\
+    top:-10px;\
+\}\
+\
+.category-message .email \{\
+    position:relative;\
+    left:10px;\
+    top:-5px;\
+\}\
+\
+@media (max-width: 768px) \{\
+    .category-message .mobile \{\
+        left: 10px;\
+        position: relative;\
+        top: -6px;\
+    \}\
+\
+    .category-message .email \{\
+        left: 8px;\
+        position: relative;\
+        top: -2px;\
+    \}\
+\}\
+\
+hr \{\
+    height:1px;\
+    border-bottom:1px dotted #646466;\
+\}\
+\
+/*yard signs*/\
+.nav ul li.yardSigns \{\
+    clear: both;\
+    float:none;\
+\}\
+\
+.panel-product-list li.yardSigns .well \{\
+    margin: 0;\
+\}\
+\
+.panel-product-list li.yardSigns h3 \{\
+    min-height: 40px;\
+\}\
+\
+@media (max-width: 768px) \{\
+    .panel-product-list li.yardSigns h3 \{\
+        min-height: auto;\
+    \}\
+\}\
+\
+.panel-product-list ul li.yardSigns a img \{\
+    max-width: 100%;\
+    height: auto;\
+\}\
+\
+/*products*/\
+.thumbnail img \{\
+    max-height:100% !important;\
+\}\
+\
+.product-image-large \{\
+    max-height: 100%;\
+    max-width: 100%;\
+\}\
+\
+.panel-product-list h3 \{\
+    font-size: 18px;\
+\}\
+\
+.cart-view .thumbnail img \{\
+    max-height:100px !important;\
+    margin-top:-5px;\
+\}\
+\
+/*spec forms*/\
+@media (max-width: 768px) \{\
+    .breadcrumb li a \{\
+        font-size: 0.75em;\
+        padding: 5px;\
+    \}\
+\}\
+\
+.specform-default .view-form-icon input,\
+.specform-default .view-form-icon text,\
+.specform-default .view-form-icon textarea \{\
+    padding-left: 10px;\
+\}\
+\
+/*states*/\
+.states select \{\
+    border: 1px solid #ccc;\
+    border-radius: 4px;\
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;\
+    display: block;\
+    font-size: 14px;\
+    height: 34px;\
+    line-height: 1.42857;\
+    padding: 0.5em;\
+    width: 100%;\
+\}\
+\
+.states option \{\
+    padding:10px;\
+\}\
+/*states*/\
+\
+.pricing \{\
+    z-index:900;\
+\}\
+\
+.pricing h5, .pricing .h5 \{\
+    font-size: 18px;\
+\}\
+\
+.pricing .row \{\
+    padding:10px;\
+    border-bottom:1px dotted #ccc;\
+\}\
+\
+.pricing .row:nth-of-type(4) \{\
+    border-bottom:none;\
+\}\
+\
+.pricing label \{\
+    padding:5px;\
+\}\
+\
+@media (max-width: 768px) \{\
+    .pricing label \{\
+        font-size:0.85em;\
+        padding:5px 0;\
+    \}\
+\}\
+\
+@media (max-width: 320px) \{\
+    .pricing label \{\
+        font-size:0.75em;\
+        padding:5px 0;\
+    \}\
+\}\
+\
+\
+.pricing .input-group .form-control \{\
+    padding:0;\
+    text-align:center;\
+\}\
+\
+.fileInput img \{\
+    max-width:100%;\
+    height:auto;\
+\}\
+\
+.specform-default hr \{\
+    border-bottom: 0 none;\
+    height: 1px;\
+\}\
+\
+/*general*/\
+.btn-custom \{\
+    width:100%;\
+    background-color:#DD5900;\
+    color:#FFF;\
+    text-transform:uppercase;\
+    border-radius:0;\
+\}\
+\
+.btn-info \{\
+    /*width:100%;*/\
+    background-color:#ccc;\
+    border-color:#ccc;\
+    color:#FFF;\
+    text-transform:uppercase;\
+\}\
+\
+.btn-info:hover \{\
+    background-color:#535353;\
+    border-color:#535353;\
+\}\
+\
+.alert-custom \{\
+    background-color:#DD5900;\
+    color:#FFF;\
+\}\
+\
+.fa-bars \{\
+    color: #DD5900;\
+\}\
+\
+body, .text-primary \{\
+    color: #646466;\
+\}\
+\
+h3, h5 \{\
+    color: #DD5900;\
+\}\
+\
+h3 \{\
+    font-size:22px;\
+\}\
+\
+.app-loading-indicator-cell \{\
+    background-color:#fff;\
+\}\
+\
+.app-loading-indicator-cell p \{\
+    background-color: #DD5900;\
+    color: #fff;\
+\}\
+\
+.app-loading-indicator-cell i \{\
+    color: #dd5900;\
+\}\
+\
+.product-search-display \{\
+    background-color: #DD5900;\
+\}\
+\
+/*Stationery*/\
+.stationery .home-notice h3 \{\
+    color:#fff;\
+    padding:0;\
+    margin-top:0;\
+\
+\}\
+.stationery .home-notice \{\
+    /*background-color: #dd5900;\
+    border-radius: 10px;\
+    color: #fff;*/\
+    font-weight: normal;\
+    text-transform: none;\
+    margin-top: 1%;\
+\}\
+\
+.stationery .jumbotron span.lead \{\
+    color:#DD5900;\
+    font-size:92%;\
+    font-style:oblique;\
+\}}
